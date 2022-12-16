@@ -1,0 +1,2 @@
+﻿ids1;MEDIU;3
+ids2;GREA;3

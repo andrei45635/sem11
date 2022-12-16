@@ -1,0 +1,2 @@
+﻿id1;Alex;10;JUNIOR
+id2;Andrei;20;JUNIOR

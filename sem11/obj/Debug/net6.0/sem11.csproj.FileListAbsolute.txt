@@ -1,0 +1,15 @@
+C:\Users\iacob\RiderProjects\sem11\sem11\bin\Debug\net6.0\sem11.exe
+C:\Users\iacob\RiderProjects\sem11\sem11\bin\Debug\net6.0\sem11.deps.json
+C:\Users\iacob\RiderProjects\sem11\sem11\bin\Debug\net6.0\sem11.runtimeconfig.json
+C:\Users\iacob\RiderProjects\sem11\sem11\bin\Debug\net6.0\sem11.dll
+C:\Users\iacob\RiderProjects\sem11\sem11\bin\Debug\net6.0\sem11.pdb
+C:\Users\iacob\RiderProjects\sem11\sem11\obj\Debug\net6.0\sem11.csproj.AssemblyReference.cache
+C:\Users\iacob\RiderProjects\sem11\sem11\obj\Debug\net6.0\sem11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iacob\RiderProjects\sem11\sem11\obj\Debug\net6.0\sem11.AssemblyInfoInputs.cache
+C:\Users\iacob\RiderProjects\sem11\sem11\obj\Debug\net6.0\sem11.AssemblyInfo.cs
+C:\Users\iacob\RiderProjects\sem11\sem11\obj\Debug\net6.0\sem11.csproj.CoreCompileInputs.cache
+C:\Users\iacob\RiderProjects\sem11\sem11\obj\Debug\net6.0\sem11.dll
+C:\Users\iacob\RiderProjects\sem11\sem11\obj\Debug\net6.0\refint\sem11.dll
+C:\Users\iacob\RiderProjects\sem11\sem11\obj\Debug\net6.0\sem11.pdb
+C:\Users\iacob\RiderProjects\sem11\sem11\obj\Debug\net6.0\sem11.genruntimeconfig.cache
+C:\Users\iacob\RiderProjects\sem11\sem11\obj\Debug\net6.0\ref\sem11.dll
