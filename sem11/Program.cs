@@ -32,5 +32,51 @@ public class Program
         {
             Console.WriteLine(pontaj);
         }
-    }
+
+        Console.WriteLine("----------------------------");
+        Console.WriteLine("Task 1");
+        var Rez = AllAngajati.OrderBy(a => a.Nivel)
+                                              .ThenByDescending(a => a.VenitPeOra)
+                                              .GroupBy(a => a.Nivel)
+                                              .SelectMany(x => x);
+        foreach (var angajat in Rez)
+        {
+            Console.WriteLine(angajat);
+        }
+        
+        Console.WriteLine("----------------------------");
+        Console.WriteLine("Task 2");
+        var RezSarcina = AllSarcini
+            .GroupBy(s => s.Dificultate)
+            .Select(s => new
+            {
+                Average = s.Average(s => s.NrOraEstimate),
+                type = s.Key
+            });
+        foreach (var sarcina in RezSarcina)
+        {
+            Console.WriteLine(sarcina);
+        }
+        
+        Console.WriteLine("----------------------------");
+        Console.WriteLine("Task 2 - SQLike");
+        var SqlT2 = from s in AllSarcini
+            group s by s.Dificultate
+            into g
+            select new
+            {
+                oreInMedie = g.Average(S => S.NrOraEstimate),
+                dificultate = g.Key
+            };
+        foreach (var sarc in SqlT2)
+        {
+            Console.WriteLine(sarc);
+        }
+        
+        //TODO: Task 3
+        Console.WriteLine("\n");
+        Console.WriteLine("TODO");
+        Console.WriteLine("----------------------------");
+        Console.WriteLine("Task 3"); 
+    }           
 }

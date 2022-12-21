@@ -1,2 +1,5 @@
 ﻿ids1;MEDIE;3
 ids2;GREA;3
+ids3;USOARA;1
+ids4;GREA;5
+ids5;MEDIE;2

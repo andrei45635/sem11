@@ -1,2 +1,6 @@
 ﻿id1;Alex;10;JUNIOR
 id2;Andrei;20;JUNIOR
+id3;Andrei;100;SENIOR
+id4;Andrei;40;MEDIUM
+id5;Andrei;50;SENIOR
+id6;Andrei;60;MEDIUM
