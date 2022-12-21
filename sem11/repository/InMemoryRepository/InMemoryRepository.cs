@@ -1,5 +1,4 @@
-﻿using System.Net.Security;
-using sem11.models;
+﻿using sem11.models;
 using sem11.validatori;
 
 namespace sem11.repository;

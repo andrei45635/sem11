@@ -1,5 +1,4 @@
-﻿using System.Data.Common;
-using System.Text;
+﻿using System.Text;
 using sem11.models;
 using sem11.validatori;
 

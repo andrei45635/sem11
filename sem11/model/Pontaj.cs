@@ -12,4 +12,9 @@ public class Pontaj: Entitate<string>
         Sarcina = sarcina;
         Data = data;
     }
+
+    public override string ToString()
+    {
+        return id + " " + Angajat + " " + Sarcina + " " + Data + "\n";
+    }
 }

@@ -11,7 +11,11 @@ public class Angajat: Entitate<string>
     public String Nume { get; set; }
     public float VenitPeOra { get; set; }
     public Nivel Nivel { get; set; }
-    
+
+    public Angajat(string id) : base(id)
+    {
+    }
+
     public Angajat(string id, string nume, float venitPeOra, Nivel nivel) : base(id)
     {
         Nume = nume;
